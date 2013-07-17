@@ -1,0 +1,90 @@
+/*
+	Stylesheet for onSlider Demo
+*/
+
+/* Default */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+article {
+  width: 55em;
+  margin: 0 auto;
+}
+
+/* Slider Specific */
+.slides {
+	width: 850px;
+	height: 465px;
+	clear: both;
+	overflow: hidden;
+	position: relative;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px
+}
+
+.container {
+	position: absolute;
+	left: 0px
+}
+
+/* Canvas */
+.onslider-canvas {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	float: left;
+	position: absolute;
+	z-index: 1;
+	background: #DAD7D2;
+	padding: 5px;
+	margin: 5px
+}
+
+/* Navigation */
+.onslider-nav {
+	position: absolute;
+	z-index: 1;
+	height: 26px;
+	padding: 5px;
+	right: 0px;
+	top: 0px;
+	width: auto;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 12px;
+}
+
+	.onslider-nav ul {
+		list-style : none;
+		padding : 0;
+		margin: 0
+	}
+	
+		.onslider-nav ul li {
+			float: left;
+			padding-left: 5px
+		}
+		
+			.onslider-nav ul li a {
+				-webkit-border-radius: 2px;
+				-moz-border-radius: 2px;
+				border-radius: 2px;
+				display: block;
+				padding-top: 5px;
+				color: #fff;
+				width: 26px;
+				height: 20px;
+				text-align: center;
+				background: #DAD7D2
+			}
+			
+			.onslider-nav ul li a.selected {
+				background: #818A8F
+			}
+			
+			.onslider-nav ul li a:hover {
+				background: #818A8F
+			}

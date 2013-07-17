@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>onSlider Demo</title>
+		<meta name="description" content="JavaScript picture slider" />
+		<meta name="author" content="Oliver Neal"/>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<article>
+			<section class="about">
+				<h3>onSlider - A JavaScript Picture Slider</h3>
+				<p>A jQuery plugin that slides through a gallery of two or more images.</p>
+				<ul>
+					<li>Activates functionality if more than one image is present</li>
+					<li>Automatically slides through images</li>
+					<li>A timer located top-left to indicate time remaining until automatic slide</li>
+					<li>Navigate easily with buttons located top-right</li>
+				</ul>
+			</section>
+			<section class="slides">
+				<img id="1" src="img/snap1.png" />
+				<img id="2" src="img/snap2.png" />
+				<img id="3" src="img/snap3.png" />
+			</section>
+		</article>
+		<!-- Scripts -->
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/slider-1.4.1.min.js"></script>
+		<script>$('.slides').onSlider();</script>
+	</body>
+</html>
